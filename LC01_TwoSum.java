@@ -1,5 +1,8 @@
-//got helped with ChatGPT b/c I am new to Map & HashMap
-//Runtime = 2ms, beats 99.08%
+//LC01 - Two Sum
+//Date : 10/31/2025
+//Approach: HashMap (value > index), single-pass
+//Note: Note: Got help from ChatGPT while learning Map & HashMap basics
+//Runtime: 2ms (beats 99.08%)
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
