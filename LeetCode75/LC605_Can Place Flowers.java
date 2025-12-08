@@ -1,8 +1,8 @@
 //LC605 - Can Place Flowers
 //Date : 12/7/2025
 //Level : Easy
-//Approach:
-//Note:
+//Approach: Scan once; if left & right are empty, plant and decrement n.
+//Note: Check left/right boundaries as empty (0) at edges.
 //Runtime: 1 ms (beats 98.16%)
 
 
