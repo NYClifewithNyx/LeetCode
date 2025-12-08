@@ -18,9 +18,8 @@ class Solution {
 
         int length = flowerbed.length; //flowerbed의 길이
 
-        for (int i = 0;
-        i < length;
-        i++){
+        for (int i = 0; i < length; i++) {
+
             if (flowerbed[i] == 0) {
                 int left = (i == 0) ? 0 : flowerbed[i - 1];
                 int right = (i == length - 1) ? 0 : flowerbed[i + 1];
