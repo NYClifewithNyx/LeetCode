@@ -4,7 +4,7 @@
 //Approach: 1) Find current max candy count
 // 2) For each kid, check (candies[i] + extraCandies >= max)
 // 3) Add boolean result to List<Boolean>
-//Note: Return type is List<Boolean>, so use ArrayList
+//Note: Return type is List<Boolean>, so we use ArrayList
 //Runtime: 1 ms (beats 88.25%)
 
 import java.util.ArrayList;
