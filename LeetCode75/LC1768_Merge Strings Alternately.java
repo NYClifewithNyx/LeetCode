@@ -1,9 +1,9 @@
-//LC1768 - Merge Strings Alternately
-//Date : 12/3/2025
+//LC345 - Reverse Vowels of a String
+//Date : 12/7/2025
 //Level : Easy
-//Approach: Two-pointer merge. Append chars alternately.
-//Note: String is immutable; use StringBuilder for efficiency
-//Runtime: 1 ms (beats 86.67%)
+//Approach: Two pointers; swap vowels only. O(n), use char array.
+//Note: isVowel checks via lowercase
+//Runtime: 3 ms (beats 84.50%)
 
 class Solution {
     public String mergeAlternately(String word1, String word2) {
