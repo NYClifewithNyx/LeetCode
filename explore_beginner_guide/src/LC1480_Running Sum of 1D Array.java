@@ -23,3 +23,16 @@ class Solution {
     }
 
 }
+
+
+//Alternative Way
+class Solution {
+    public int[] runningSum(int[] nums) {
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i-1];
+        }
+        return nums;
+    }
+}
+//Time complexity = O(n)
+//Space complexity = O(1) as using only 1 array
