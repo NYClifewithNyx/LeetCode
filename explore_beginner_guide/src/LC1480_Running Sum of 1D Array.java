@@ -23,7 +23,10 @@ class Solution {
     }
 
 }
+//better if the original array must stay the same, not interrupted
+//but inefficient compared to the alternative way
 
+//if (nums == null || nums.length == 0) return nums; < edge case protection
 
 //Alternative Way
 class Solution {
@@ -36,3 +39,5 @@ class Solution {
 }
 //Time complexity = O(n)
 //Space complexity = O(1) as using only 1 array
+
+// better for space complexity, but destroys the original array, but preferred in interviews
